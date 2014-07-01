@@ -1,0 +1,293 @@
+1 ejercicio
+
+<php>
+function 1ejercicio();
+$a[] ={$7,$6,$8,$4,9$,$10,$0,$11,$-2 }
+int $y = "$1"
+int $x = "$2"
+int $i
+int $j 
+if(x=255 && y = 255)
+echo='el valor es -1'
+else {
+if(x=0 && y =0)
+echo = 'el valor es -1'
+else {
+
+for ($i=a[] , $i==x , $i++)
+primero= a[i]
+for (j=a[] , j==y , j++)
+segundo= a[j]
+
+resultado = primero + segundo 
+
+echo 'resulatdo'
+
+}
+
+
+}
+
+2 ejercicio
+
+$int $x,$y,$r;
+        $x=echo("Ingrese el valor del entero X"));
+        $y=echo("Ingrese el valor del entero Y"));
+        if ($x<=0 || $x>255)
+        {
+            r=-1;
+            JOptionPane.showMessageDialog(null,"Resultado "+r);
+        }
+        else
+        {
+            int[] arreglo=new int[y];
+            arreglo[0]=x;
+            for ($int $i = 1; $i < arreglo.length; i++) 
+            {
+               $x=$x*(i+1);
+               arreglo[i]=x;
+                echo(i+" "+arreglo[i]);               
+            }
+            for (int $i = 0; i < arreglo.length; i++) 
+            {
+                if(i==(y-1))
+                {
+                    r=arreglo[i];
+                   echo null,"Resultado "+r);
+                   
+3./ejercicio
+
+<?php
+
+int $x,$y,$r,proceso;
+        $x=echo("Ingrese el valor del entero X"));
+        $y=echo("Ingrese el valor del entero Y"));
+        if (x<=0 || x>255)
+        {
+            $r=-1;
+            echo null,"Resultado "+r);
+        }
+        else
+        {
+            int[] arreglo=new int[y];
+            arreglo[0]=x;
+            for (int i = 1;i<arreglo.length; i++) 
+            {
+               proceso=x/(i+1);
+               arreglo[i]=proceso;           
+            }
+            for (int i = 0; i < arreglo.length; i++) 
+            { 
+              if(i==(y-1))
+                {
+                    
+                    echo(null,"Resultado "+arreglo[i]);
+                }  
+            }
+        }
+    }
+    
+
+?>
+
+ 5 ejercicio
+
+<?php
+    int $n=echo int("Ingrese el rango del vector"));
+        int[] arreglo=new int[n];
+        int c=0;
+        for (int i = 0; i < arreglo.length; i++) {
+            
+            int numero=echo("Ingrese numero"));
+
+            arreglo[i]=numero;
+        }
+        echo("Arreglo Desordenado");
+        for (int i = 0; i < arreglo.length; i++) {
+            
+           echo(arreglo[i]);
+        }
+        echo("");
+         int i, j, aux;
+         for($i=0;$i<arreglo.length-1;$i++)
+              for(j=0;j<arreglo.length-i-1;j++)
+                   if(arreglo[j+1]<arreglo[j]){
+                      aux=arreglo[$j+1];
+                      arreglo[j+1]=arreglo[j];
+                      arreglo[j]=aux;
+                   } 
+         echo("Arreglo Ordenado");
+         for ( $$i = 0; $i < arreglo.length; $i++) {
+            echo(arreglo[i]);
+        }
+         echo("Arreglo Sin Numeros Repetidos");
+         int $a1;
+         for ( i = 0; i < arreglo.length; i++) {
+             if (i==0) {
+             echo(arreglo[i]);
+             }
+             else
+             {
+                 $a1=i-1;
+                 aux=arreglo[i];
+             if (aux==arreglo[a1]) {
+                 
+             }else{
+                 echo(arreglo[i]);
+             }
+             }
+             
+              
+            
+        }
+    }
+}
+
+?>
+
+9 ejercicio
+
+<?php
+ int numero=0,c=0;
+        for (int i = 0; i < 2; i++) 
+        {
+            numero=echo(null,"Ingrese un numero entero positivo"));
+            if (numero>0)
+            {
+                $i=2;
+                
+            }
+            else
+            {
+                $i=0;
+                echo(null, "Debe de Ingresar Valores Enteros Positivos es Decir Numeros Mayores a 0" );
+            }  
+        }
+        
+        long[] arreglo=new long[numero];
+        for (int i = 0; i < arreglo.length; i++) 
+        {
+            arreglo[$i]=i*i;           
+        }
+        for (int $i = 0; $i < arreglo.length; $i++) 
+        {
+            if (numero==arreglo[i])
+            {
+                $i=arreglo.length;
+                $c=1;
+            }
+        }
+        if ($c==1 || numero==1)
+        {
+            echo(null, "TRUE" );
+        }
+        else
+        {
+            echo(null, "FALSE" );
+        }
+        
+    }
+    
+}
+
+?>
+
+10 ejercicio 
+
+<?php
+
+       
+        int $x,$y,sumaResiduo=0;
+        $x=echo(null,"Ingrese un número","Número Inicial",JOptionPane.QUESTION_MESSAGE));
+        $y=echo(null,"ingrese otro número","Número Final",JOptionPane.QUESTION_MESSAGE));
+         
+        for (int $i = x; $i <= y; $i++) {
+            sumaResiduo=0; 
+            for (int $j = 1  ; $j < i; $j++) {
+                if (($i % $j)==0) {
+                    sumaResiduo =sumaResiduo+$j;
+                }
+                if (($i==y)&&(($i%j)$!=0)) {
+                    sumaResiduo=0; 
+                }
+            }
+            if (sumaResiduo==i) {
+                echo(null, "El primer número perfecto ente "+ $x+" y "+$y+ " es = " +sumaResiduo);
+                i=y;
+            }
+        }
+            if(sumaResiduo==0) {
+                echo(null, "no hay números perfectos ente "+ $x+" y "+$y);
+            }
+    }
+}
+
+
+?>
+
+11 ejercicio
+
+<?php
+
+       
+ 
+        $int x=entrada.nextInt();
+        echo("y: ");
+        $int y=entrada.nextInt();
+        $int valor;
+        $int matriz[][]=new int [x][y];
+        
+        for (int $i = 0; $i < x; $i++) {
+            for (int j = 0; j < y; j++) {
+                echo("Ingrese valor en Pos.: "+i+j);
+                valor=entrada.nextInt();
+                matriz[$i][$j]=valor;
+                
+            }
+            
+        }
+        $int dimen=$x*$y,$a=0;
+        
+        $int vectorcontndr[]=new $int[dimen];
+        for (int $i = 0; $i <x; i++) {
+            for (int $j = 0; $j < $y; $j++) {
+                vectorcontndr[$a]=matriz[$i][$j];
+               
+               $a++;
+            }
+        }
+        ArrayList matriz1=new ArrayList();
+        ArrayList cant=new ArrayList();
+        Arrays.sort(vectorcontndr);
+        matriz1.add(vectorcontndr);
+        
+        $int cc=0;
+        for (int $i = 0; $i < vectorcontndr.length; $i++) {
+            if(vectorcontndr[i]!=vectorcontndr[cc+1]){
+               matriz1.add(vectorcontndr[cc+1]);  
+            } 
+        }
+       
+        $int numTemp, cantRepite = 0, numRepite = -1; 
+        
+        for $int i=0; $i < vectorcontndr.length-1; $i++){
+            numTemp = 1;
+            for(int $j = i+1 ; $j< vectorcontndr.length; $j++){
+                if(vectorcontndr[$i] == vectorcontndr[$j])
+                    numTemp ++;                
+            }
+            if(numTemp > cantRepite){
+                cantRepite = numTemp;
+                numRepite = vectorcontndr[i];
+            }
+        }
+        echo("El # que mas se repite es el: " + numRepite + 
+                " Porque se repite " + cantRepite+" Veces en la matriz");  
+        
+         
+
+        
+    }
+
+
+?>
